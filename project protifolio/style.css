@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=IBM+Plex+Sans+Condensed:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  list-style: none;
+  height: 100vh;
+  position: absolute;
+  background-color: rgb(240, 240, 240);
+}
+.Gosidebar {
+  transform: translate(-350px, 0px);
+  position: absolute;
+  transition: transform 0.32s ease-in;
+}
+.main {
+  margin-top: 65px;
+  width: 70vw;
+  margin: auto;
+}
+.sidebar nav ul li {
+  list-style: none;
+  font-family: "light 300", "Times New Roman", Times, serif;
+  font-size: 22px;
+  margin: 35px 0px;
+}
+.sidebar nav ul {
+  padding: 15px 35px;
+}
+.sidebar nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.infocontainer {
+  margin: 90px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devpic img {
+  height: 68vh;
+}
+
+.devinfo {
+  justify-content: center;
+  
+}
+.sidebar nav ul li:hover {
+  background-color: rgb(95, 83, 83);
+  color: white;
+}
+.hello {
+  font-size: 3em;
+}
+.to {
+  font-size: 2.8em;
+}
+p {
+  font-size: 2.5em;
+}
+.devinfo {
+  margin-top: 60px;
+
+}
+.btn-primary {
+  font-size: 1.8em;
+  background-color: rgb(40, 75, 172);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 2px;
+}
+.btn-primary:hover {
+  color: rgb(40, 75, 172);
+  background-color: white;
+}
+@media only screen and (max-width: 1120px) {
+  .btn-primary{
+    font-size: 12px;
+  }
+  .devinfo{
+    font-size: 12px;
+    margin: 3px auto;
+  }
+
+}
+.hangbar {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 8px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.cross {
+  margin-left: 90px;
+}
+.cross {
+  padding-left: 37px;
+}
+.btn-primary{
+    font-size: 16px;
+}
